@@ -1,11 +1,10 @@
-import './App.css';
 import Home from './Components/Home/Home';
-import Navbar from './Components/Shared/Navbar/Navbar';
+import './App.css';
 
 function App() {
   return (
     <>
-      <Navbar></Navbar>
+      <h1 className='text-7xl text-center'>my effort</h1>
       <Home></Home>
     </>
   );
